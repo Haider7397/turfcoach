@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Weather Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Turfcoach Application project! This weather application is built using React.js and styled with plain CSS, providing a responsive and pleasant user experience. You can search for weather information in specific cities, view relevant weather data, fetch city images, and manage your favorite cities.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Technical Requirements](#technical-requirements)
+- [Functionality](#functionality)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Bonus Tasks](#bonus-tasks)
+- [Timeframe](#timeframe)
+- [Contact](#contact)
 
-### `npm start`
+## Technical Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. This application is exclusively built using React.js, with the option to utilize React libraries.
+2. The user experience is a priority, so the application is designed to be responsive and visually appealing.
+3. Styling is done using plain CSS, and no external styling libraries (e.g., Bootstrap, Tailwind) are used.
+4. The project is available on a GitHub repository with a well-maintained version history, and clear instructions for running the application locally are provided in the README.md file.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Functionality
 
-### `npm test`
+1. **Search Feature**: Users can search for weather information in a specific city.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Weather Information**: Relevant weather information is displayed, including optional parameters such as precipitation and user-selected units.
 
-### `npm run build`
+3. **City Images**: The application fetches and displays an image of the queried city or location.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. **Favorites**: Users can add or delete cities to/from their favorites. Note that there's no need for any backend or persistent storage of the favorites.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Getting Started
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+To run this project locally, you need the following:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Node.js and npm (usually installed with Node.js)
+- Git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone the repository:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```bash
+   git clone https://github.com/yourusername/turfcoach-weather-app.git

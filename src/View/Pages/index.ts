@@ -1,0 +1,1 @@
+export * from 'View/Pages/HomePage/HomePage';

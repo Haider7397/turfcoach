@@ -1,0 +1,144 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+
+.hero {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+.find-location {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+input[type="text"] {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.find-location input[type="submit"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+
+.find-location button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    
+}
+
+.button-styling{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.button-styling:hover{
+    cursor: pointer;
+    background-color: #888888;
+    color: white;
+}
+
+.input-group input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+button,
+input {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+button,
+input {
+    line-height: normal;
+}
+
+.list-container {
+    background-color: #1e202b;
+    color: white;
+    border-radius: 5px;
+}
+
+.list {
+    list-style-type: none;
+    max-height: 130px;
+    overflow-y: scroll;
+}
+
+.list-item {
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.list::-webkit-scrollbar {
+    width: 10px;
+}
+
+.list::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #1e202b;
+    border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 10px;
+}
+
+.list::-webkit-scrollbar-thumb:hover {
+    background: rgb(216, 215, 215);
+}
