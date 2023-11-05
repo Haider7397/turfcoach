@@ -52,7 +52,10 @@ To run this project locally, you need the following:
     ```bash
     cd turfcoach
 
-3. Then run the project using following command:
+3. Then run the project using following commands:
+
+    ```bash
+    npm install
 
     ```bash
     npm start
