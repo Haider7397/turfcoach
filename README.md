@@ -54,4 +54,5 @@ To run this project locally, you need the following:
 
 3. Then run the project using following command:
 
+    ```bash
     npm start
