@@ -6,6 +6,15 @@ export const data:ICity[]=[
         name:"Berlin",
         weather:[
             {
+                day:"Sunday",
+                humidity:"57%",
+                precipitation:"81%",
+                wind:"13km/h",
+                icon:"images/cloud.png",
+                temperature:"17",
+                dropTo:"8",
+            },
+            {
                 day:"Monday",
                 humidity:"80%",
                 precipitation:"72%",
@@ -58,16 +67,7 @@ export const data:ICity[]=[
                 icon:"images/thunderstorm.png",
                 temperature:"7",
                 dropTo:"-8",
-            },
-            {
-                day:"Sunday",
-                humidity:"57%",
-                precipitation:"81%",
-                wind:"13km/h",
-                icon:"images/cloud.png",
-                temperature:"17",
-                dropTo:"8",
-            },
+            }
         ],
         favourite:false,
         image:"/images/berlin.jpg"
@@ -76,6 +76,15 @@ export const data:ICity[]=[
         id:2,
         name:"Leipzig",
         weather:[
+            {
+                day: "Sunday",
+                humidity: "10%",
+                precipitation: "0%",
+                wind: "5km/h",
+                icon: "images/sunny.png",
+                temperature: "16",
+                dropTo: "21",
+            },
             {
                 day: "Monday",
                 humidity: "75%",
@@ -129,15 +138,6 @@ export const data:ICity[]=[
                 icon: "images/snow.png",
                 temperature: "10",
                 dropTo: "-2",
-            },
-            {
-                day: "Sunday",
-                humidity: "19%",
-                precipitation: "2%",
-                wind: "0km/h",
-                icon: "images/behind.png",
-                temperature: "11",
-                dropTo: "-7",
             },
         ],
         favourite:true,
@@ -148,6 +148,15 @@ export const data:ICity[]=[
         name:"Stuttgart",
         weather:[
             {
+                day: "Sunday",
+                humidity: "80%",
+                precipitation: "72%",
+                wind: "19km/h",
+                icon: "images/rain.png",
+                temperature: "12",
+                dropTo: "4",
+            },
+            {
                 day: "Monday",
                 humidity: "70%",
                 precipitation: "90%",
@@ -200,15 +209,6 @@ export const data:ICity[]=[
                 icon: "images/cloud.png",
                 temperature: "17",
                 dropTo: "8",
-            },
-            {
-                day: "Sunday",
-                humidity: "80%",
-                precipitation: "72%",
-                wind: "19km/h",
-                icon: "images/rain.png",
-                temperature: "12",
-                dropTo: "4",
             },
         ],
         favourite:false,
@@ -219,6 +219,15 @@ export const data:ICity[]=[
         name:"Munich",
         weather:[
             {
+                day: "Sunday",
+                humidity: "40%",
+                precipitation: "62%",
+                wind: "21km/h",
+                icon: "images/snow.png",
+                temperature: "10",
+                dropTo: "-2",
+            },
+            {
                 day: "Monday",
                 humidity: "19%",
                 precipitation: "2%",
@@ -271,16 +280,7 @@ export const data:ICity[]=[
                 icon: "images/sky.png",
                 temperature: "14",
                 dropTo: "3",
-            },
-            {
-                day: "Sunday",
-                humidity: "40%",
-                precipitation: "62%",
-                wind: "21km/h",
-                icon: "images/snow.png",
-                temperature: "10",
-                dropTo: "-2",
-            },
+            }
         ],        
         favourite:false,
         image:"/images/munich.jpg"
@@ -290,6 +290,15 @@ export const data:ICity[]=[
         name:"Hamburg",
         weather: [
             {
+                day: "Sunday",
+                humidity: "40%",
+                precipitation: "62%",
+                wind: "21km/h",
+                icon: "images/snow.png",
+                temperature: "10",
+                dropTo: "-2",
+            },
+            {
                 day: "Monday",
                 humidity: "75%",
                 precipitation: "22%",
@@ -342,15 +351,6 @@ export const data:ICity[]=[
                 icon: "images/cloud.png",
                 temperature: "17",
                 dropTo: "8",
-            },
-            {
-                day: "Sunday",
-                humidity: "10%",
-                precipitation: "0%",
-                wind: "5km/h",
-                icon: "images/sunny.png",
-                temperature: "16",
-                dropTo: "21",
             },
         ],        
         favourite:false,
@@ -361,6 +361,15 @@ export const data:ICity[]=[
         name:"Frankfurt",
         weather : [
             {
+                day: "Sunday",
+                humidity: "19%",
+                precipitation: "2%",
+                wind: "0km/h",
+                icon: "images/behind.png",
+                temperature: "11",
+                dropTo: "-7",
+            },
+            {
                 day: "Monday",
                 humidity: "75%",
                 precipitation: "22%",
@@ -413,16 +422,7 @@ export const data:ICity[]=[
                 icon: "images/cloud.png",
                 temperature: "17",
                 dropTo: "8",
-            },
-            {
-                day: "Sunday",
-                humidity: "19%",
-                precipitation: "2%",
-                wind: "0km/h",
-                icon: "images/behind.png",
-                temperature: "11",
-                dropTo: "-7",
-            },
+            }
         ],        
         favourite:false,
         image:"/images/frankfurt.jpg"
@@ -432,6 +432,15 @@ export const data:ICity[]=[
         name:"Düsseldorf",
         weather:[
             {
+                day: "Sunday",
+                humidity: "19%",
+                precipitation: "2%",
+                wind: "0km/h",
+                icon: "images/behind.png",
+                temperature: "11",
+                dropTo: "-7",
+            },
+            {
                 day: "Monday",
                 humidity: "57%",
                 precipitation: "81%",
@@ -484,16 +493,7 @@ export const data:ICity[]=[
                 icon: "images/thunderstorm.png",
                 temperature: "7",
                 dropTo: "-8",
-            },
-            {
-                day: "Sunday",
-                humidity: "19%",
-                precipitation: "2%",
-                wind: "0km/h",
-                icon: "images/behind.png",
-                temperature: "11",
-                dropTo: "-7",
-            },
+            }
         ],        
         favourite:false,
         image:"/images/dusseldorf.jpg"
@@ -503,6 +503,15 @@ export const data:ICity[]=[
         name:"Cologne",
         weather:[
             {
+                day: "Sunday",
+                humidity: "70%",
+                precipitation: "90%",
+                wind: "19km/h",
+                icon: "images/thunderstorm.png",
+                temperature: "7",
+                dropTo: "-8",
+            },
+            {
                 day: "Monday",
                 humidity: "10%",
                 precipitation: "0%",
@@ -555,16 +564,7 @@ export const data:ICity[]=[
                 icon: "images/behind.png",
                 temperature: "11",
                 dropTo: "-7",
-            },
-            {
-                day: "Sunday",
-                humidity: "70%",
-                precipitation: "90%",
-                wind: "19km/h",
-                icon: "images/thunderstorm.png",
-                temperature: "7",
-                dropTo: "-8",
-            },
+            }
         ],        
         favourite:false,
         image:"/images/cologne.jpg"
@@ -574,6 +574,15 @@ export const data:ICity[]=[
         name:"Nuremberg",
         weather:[
             {
+                day: "Sunday",
+                humidity: "19%",
+                precipitation: "2%",
+                wind: "0km/h",
+                icon: "images/behind.png",
+                temperature: "11",
+                dropTo: "-7",
+            },
+            {
                 day: "Monday",
                 humidity: "40%",
                 precipitation: "62%",
@@ -626,16 +635,7 @@ export const data:ICity[]=[
                 icon: "images/rain.png",
                 temperature: "12",
                 dropTo: "4",
-            },
-            {
-                day: "Sunday",
-                humidity: "19%",
-                precipitation: "2%",
-                wind: "0km/h",
-                icon: "images/behind.png",
-                temperature: "11",
-                dropTo: "-7",
-            },
+            }
         ],
         favourite:false,
         image:"/images/nurembyrg.jpg"

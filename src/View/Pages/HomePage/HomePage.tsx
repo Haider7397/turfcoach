@@ -16,19 +16,19 @@ export const HomePage = () =>{
     const [favourites, setFavourites] = useState<ICity[]>([data[1]]);
     const [backgroundImage, setBackgoundImage] = useState<string>(data[0].image);
 
-    useEffect(()=>{
-        cities.forEach((city)=>{
-            const today = new Date();
-            const currentDayIndex = today.getDay(); 
-            const beforeToday = city.weather.slice(0, currentDayIndex);
-            const afterToday = city.weather.slice(currentDayIndex);
-            city.weather = afterToday.concat(beforeToday);
-        })
+    useEffect(() => {
+        cities.forEach((city) => {
+          const today = new Date();
+          const currentDayIndex = today.getDay();
+          const beforeToday = city.weather.slice(0, currentDayIndex);
+          const afterToday = city.weather.slice(currentDayIndex);
+          city.weather = afterToday.concat(beforeToday);
+        });
         setCities(cities)
         setCity(cities[0])
         setFavourites([cities[1]])
         setBackgoundImage(cities[0].image)
-    },[])
+      }, []);
 
     useEffect(()=>{
         const subscription = onClick$.subscribe((val:string)=>{
