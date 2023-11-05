@@ -45,4 +45,13 @@ To run this project locally, you need the following:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/turfcoach-weather-app.git
+   git clone https://github.com/Haider7397/turfcoach.git
+
+2. Go into the project directory and run:
+
+    ```bash
+    cd turfcoach
+
+3. Then run the project using following command:
+
+    npm start
